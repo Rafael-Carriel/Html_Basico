@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Teste JavaScript</title>
+        <meta charset="utf-8"/>
+        <script>
+            function acendeLampada(){
+                document.getElementById("luz").src = "../curso_html/projeto-1/images/lampadaacesa.jpeg";
+            }
+            function apagaLampada(){
+                document.getElementById("luz").src = "../curso_html/projeto-1/images/lampada.jpeg";
+            }
+            function quebraLampada(){
+                document.getElementById("luz").src = "../curso_html/projeto-1/images/lampadaquebrada.jpg";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>blablabla</h1>
+        <img src="../curso_html/projeto-1/images/lampada.jpeg" id="luz" onmousemove="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+    </body>
+</html>

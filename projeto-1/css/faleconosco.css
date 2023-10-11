@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover, textarea:hover{
+    background-color: antiquewhite;
+}
+
+legend {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: red;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    border-color: red;
+    width: 200px;
+}
+
+fieldset#usuario{
+    background: url("") no-repeat 95% 95%;
+
+}
